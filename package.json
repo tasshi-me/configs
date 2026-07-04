@@ -1,0 +1,67 @@
+{
+  "name": "@tasshi/configs",
+  "version": "0.0.0",
+  "description": "Shareable configs (Renovate preset, ESLint, tsconfig)",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "tsconfig"
+  ],
+  "homepage": "https://github.com/tasshi-me/configs#readme",
+  "bugs": {
+    "url": "https://github.com/tasshi-me/configs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tasshi-me/configs.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "tasshi (Masaharu Tashiro)",
+    "email": "tasshi.me@gmail.com",
+    "url": "https://tasshi.me/"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "exports": {
+    ".": "./index.js",
+    "./eslint-config": "./eslint/config.js",
+    "./package.json": "./package.json",
+    "./tsconfig": "./tsconfig/tsconfig.json"
+  },
+  "main": "index.js",
+  "files": [
+    "eslint/",
+    "tsconfig/"
+  ],
+  "scripts": {
+    "fix": "pnpm lint --fix",
+    "lint": "eslint . --max-warnings 0"
+  },
+  "devDependencies": {
+    "eslint": "^10.6.0",
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "eslint": ">=9"
+  },
+  "peerDependenciesMeta": {
+    "eslint": {
+      "optional": true
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "pnpm@10.34.1",
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-package-json": "^1.5.0",
+    "globals": "^17.7.0",
+    "typescript-eslint": "^8.62.1"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    ":ignoreModulesAndTests",
+    ":label(renovate)",
+    ":timezone(Asia/Tokyo)",
+    ":prImmediately",
+    ":disableRateLimiting",
+    ":automergePatch",
+    ":automergeMinor",
+    ":automergeLinters",
+    ":automergeTesters",
+    ":automergeTypes",
+    ":dependencyDashboard"
+  ],
+  "rangeStrategy": "bump",
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies", "peerDependencies"],
+      "semanticCommitType": "fix"
+    },
+    {
+      "matchDepTypes": ["action"],
+      "matchPackageNames": ["!actions/{/,}**"],
+      "pinDigests": true
+    }
+  ],
+  "npm": {
+    "extends": ["security:minimumReleaseAgeNpm", "helpers:disableTypesNodeMajor"],
+    "postUpdateOptions": ["npmDedupe"],
+    "minimumReleaseAge": "14 days"
+  }
+}
