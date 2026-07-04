@@ -31,6 +31,7 @@
   },
   "main": "index.js",
   "files": [
+    "CHANGELOG.md",
     "eslint/",
     "tsconfig/"
   ],
