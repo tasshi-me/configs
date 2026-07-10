@@ -20,6 +20,14 @@
       "semanticCommitType": "fix"
     },
     {
+      "matchDepTypes": ["peerDependencies"],
+      "rangeStrategy": "widen"
+    },
+    {
+      "matchUpdateTypes": ["digest", "pin", "pinDigest"],
+      "automerge": true
+    },
+    {
       "matchDepTypes": ["action"],
       "matchPackageNames": ["!actions/{/,}**"],
       "pinDigests": true
