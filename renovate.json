@@ -1,4 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>tasshi-me/configs"]
+  "extends": ["github>tasshi-me/configs"],
+  "packageRules": [
+    {
+      "description": "typescript-eslint does not support TypeScript 7 yet (peer range <6.1.0). Remove this constraint once support lands.",
+      "matchPackageNames": ["typescript"],
+      "allowedVersions": "<7"
+    }
+  ]
 }
