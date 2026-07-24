@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.0.4](https://github.com/tasshi-me/configs/compare/v0.0.3...v0.0.4) (2026-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript-eslint to ^8.65.0 ([#27](https://github.com/tasshi-me/configs/issues/27)) ([d0e0623](https://github.com/tasshi-me/configs/commit/d0e0623a0359fd1e4f36d82dd12dadf905241bfe))
+
 ## [0.0.3](https://github.com/tasshi-me/configs/compare/v0.0.2...v0.0.3) (2026-07-17)
 
 
