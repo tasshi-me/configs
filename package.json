@@ -63,6 +63,6 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-package-json": "^1.6.0",
     "globals": "^17.7.0",
-    "typescript-eslint": "^8.64.0"
+    "typescript-eslint": "^8.65.0"
   }
 }
