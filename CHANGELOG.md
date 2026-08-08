@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.0.4](https://github.com/tasshi-me/configs/compare/v0.0.3...v0.0.4) (2026-08-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency eslint-plugin-package-json to ^1.6.1 ([#32](https://github.com/tasshi-me/configs/issues/32)) ([260a565](https://github.com/tasshi-me/configs/commit/260a565027835420766fd52d08d2542132b27c65))
+* **deps:** update dependency eslint-plugin-package-json to ^1.6.2 ([#33](https://github.com/tasshi-me/configs/issues/33)) ([b2ffb9b](https://github.com/tasshi-me/configs/commit/b2ffb9bba519dc541a4a26e01db39b516f362e45))
+* **deps:** update dependency eslint-plugin-package-json to ^1.6.3 ([#45](https://github.com/tasshi-me/configs/issues/45)) ([af69b09](https://github.com/tasshi-me/configs/commit/af69b09e56a5d9e621e8372446b847accfb851dc))
+* **deps:** update dependency globals to ^17.8.0 ([#35](https://github.com/tasshi-me/configs/issues/35)) ([7ea511a](https://github.com/tasshi-me/configs/commit/7ea511a9527ae4db3f5d598c31ac1b3eadfae211))
+* **deps:** update dependency globals to ^17.9.0 ([#42](https://github.com/tasshi-me/configs/issues/42)) ([6256fd2](https://github.com/tasshi-me/configs/commit/6256fd29eb34756d1334c39f8538f796d777e4c9))
+* **deps:** update dependency typescript-eslint to ^8.65.0 ([#27](https://github.com/tasshi-me/configs/issues/27)) ([d0e0623](https://github.com/tasshi-me/configs/commit/d0e0623a0359fd1e4f36d82dd12dadf905241bfe))
+
 ## [0.0.3](https://github.com/tasshi-me/configs/compare/v0.0.2...v0.0.3) (2026-07-17)
 
 
